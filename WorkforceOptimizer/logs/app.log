@@ -1,0 +1,5 @@
+2020-07-12 00:08:07,115 INFO exe.WorkforceOptimizer.ShiftAction [main] asd does not belong to group 123
+2020-07-12 00:08:26,965 INFO exe.WorkforceOptimizer.ShiftAction [main] qwe does not belong to group qqqqw2222
+2020-07-12 00:09:28,101 INFO exe.WorkforceOptimizer.ShiftAction [main] SHIFT1 belongs to group SHIFT_GROUP1
+2020-07-12 00:09:45,891 INFO exe.WorkforceOptimizer.ShiftAction [main] SHIFT1 does not belong to group SHIFT_GROUP2
+2020-07-12 00:10:07,753 INFO exe.WorkforceOptimizer.ShiftAction [main] SHIFT6 belongs to group SHIFT_GROUP3

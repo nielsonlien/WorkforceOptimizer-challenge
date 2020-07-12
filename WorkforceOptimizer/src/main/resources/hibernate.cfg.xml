@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.dialect">org.hibernate.dialect.OracleDialect</property>
+		<property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+		<property name="hibernate.connection.url">jdbc:oracle:thin:@localhost:1521:mydb1</property>
+		<property name="hibernate.connection.username">user1</property>
+		<property name="hibernate.connection.password">user1</property>
+
+		<property name="hibernate.current_session_context_class">thread</property>
+		<property name="hibernate.show_sql">true</property>
+
+		<mapping class="exe.WorkforceOptimizer.entity.Shift" />
+		<mapping class="exe.WorkforceOptimizer.entity.ShiftGroup" />
+		<mapping class="exe.WorkforceOptimizer.entity.ShiftGrouping" />
+	</session-factory>
+</hibernate-configuration>
